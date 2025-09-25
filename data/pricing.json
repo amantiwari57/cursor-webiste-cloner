@@ -1,0 +1,53 @@
+{
+  "pricing": [
+    {
+      "id": "free",
+      "name": "Free",
+      "price": "$0",
+      "period": "per month",
+      "description": "Perfect for getting started with AI image generation",
+      "features": [
+        "50 image generations per month",
+        "Standard quality output",
+        "Basic editing features",
+        "Community support"
+      ],
+      "popular": false,
+      "cta": "Get Started"
+    },
+    {
+      "id": "pro",
+      "name": "Pro",
+      "price": "$29",
+      "period": "per month",
+      "description": "Best for professionals and content creators",
+      "features": [
+        "1,000 image generations per month",
+        "4K high-resolution output",
+        "Advanced editing features",
+        "Batch processing",
+        "Priority support",
+        "Commercial usage rights"
+      ],
+      "popular": true,
+      "cta": "Start Pro Trial"
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise",
+      "price": "Custom",
+      "period": "contact us",
+      "description": "Tailored solutions for large organizations",
+      "features": [
+        "Unlimited image generations",
+        "Custom model training",
+        "API access",
+        "Dedicated support",
+        "SLA guarantee",
+        "On-premise deployment options"
+      ],
+      "popular": false,
+      "cta": "Contact Sales"
+    }
+  ]
+}

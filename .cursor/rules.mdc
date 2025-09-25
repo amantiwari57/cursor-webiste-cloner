@@ -1,0 +1,17 @@
+---
+description: "Use shadcn/ui components for all UI requests. Always prefer registry/MCP components if available."
+patterns: "*.tsx"
+alwaysApply: true
+---
+
+# Shadcn UI MCP Component Rules
+
+1. When building UIs, always **search the shadcn MCP registries before creating custom components**.
+2. If a component exists in any connected registry, **use and import that component directly.**
+3. For best results, **prefer adding components via the MCP server or by direct registry URL (using `npx shadcn@latest add <json-url>`) when available**.
+4. Respect the recommended file paths and imports as specified by the registry.
+5. Always resolve and install any listed dependencies after importing a registry component.
+6. *Never re-invent* standard UI blocks—always favor official shadcn, Aceternity, or Magic UI components whenever possible.
+7. **Document** any manual changes to MCP components in your local README.
+8. Run automated accessibility, responsive, and regression tests after installation.
+9. If cloning a website open using playwright and make sure to match the ui and responsiveness 

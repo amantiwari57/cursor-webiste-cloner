@@ -1,0 +1,127 @@
+{
+  "models": [
+    {
+      "id": "seedream-4.0",
+      "name": "Seedream 4.0",
+      "description": "As a new-generation image creation model, Seedream 4.0 integrates image generation and image editing capabilities into a single, unified architecture.",
+      "capabilities": ["Image Generation", "Image Editing", "4K Resolution", "Knowledge-based Generation"],
+      "category": "Image Generation",
+      "status": "active",
+      "preview_image": "/api/placeholder/400/300",
+      "examples": [
+        {
+          "prompt": "A futuristic cityscape at sunset with flying cars",
+          "image": "/api/placeholder/512/512"
+        },
+        {
+          "prompt": "Portrait of a woman in cyberpunk style",
+          "image": "/api/placeholder/512/512"
+        }
+      ]
+    },
+    {
+      "id": "seed-1.6",
+      "name": "Seed 1.6",
+      "description": "Advanced text-to-image generation model with enhanced prompt following capabilities.",
+      "capabilities": ["Text-to-Image", "High Resolution", "Style Transfer"],
+      "category": "Image Generation",
+      "status": "active",
+      "preview_image": "/api/placeholder/400/300",
+      "examples": [
+        {
+          "prompt": "Abstract art with geometric patterns",
+          "image": "/api/placeholder/512/512"
+        }
+      ]
+    },
+    {
+      "id": "seededit-3.0",
+      "name": "SeedEdit 3.0",
+      "description": "Precise image editing with natural language prompts.",
+      "capabilities": ["Image Editing", "Prompt-based Editing", "Style Transfer"],
+      "category": "Image Editing",
+      "status": "active",
+      "preview_image": "/api/placeholder/400/300",
+      "examples": [
+        {
+          "prompt": "Change the sky to a starry night",
+          "image": "/api/placeholder/512/512"
+        }
+      ]
+    }
+  ],
+  "features": [
+    {
+      "id": "batch-processing",
+      "title": "Batch Input & Output",
+      "description": "Upload multiple reference images and generate several outputs in one go, boosting your creative workflow.",
+      "icon": "layers",
+      "image": "/api/placeholder/600/400"
+    },
+    {
+      "id": "prompt-editing",
+      "title": "Prompt-based Editing",
+      "description": "Create high-quality images or make precise edits with just one single sentence. Turn your words into visuals and watch them come to life.",
+      "icon": "edit",
+      "image": "/api/placeholder/600/400"
+    },
+    {
+      "id": "versatile-styles",
+      "title": "Versatile Styles",
+      "description": "Unlock professional styles at your fingertips. Transform images into stunning art, whether it's watercolor, cyberpunk, or anything in between.",
+      "icon": "palette",
+      "image": "/api/placeholder/600/400"
+    },
+    {
+      "id": "knowledge-generation",
+      "title": "Knowledge-driven Generation",
+      "description": "Easily generate visually appealing and accurate educational illustrations, charts, and professional images.",
+      "icon": "brain",
+      "image": "/api/placeholder/600/400"
+    }
+  ],
+  "gallery": [
+    {
+      "id": 1,
+      "title": "Cyberpunk Portrait",
+      "prompt": "Portrait of a futuristic woman with neon lighting",
+      "image": "/api/placeholder/400/400",
+      "category": "Portrait"
+    },
+    {
+      "id": 2,
+      "title": "Fantasy Landscape",
+      "prompt": "Mystical forest with glowing mushrooms and fairy lights",
+      "image": "/api/placeholder/400/400",
+      "category": "Landscape"
+    },
+    {
+      "id": 3,
+      "title": "Abstract Art",
+      "prompt": "Colorful abstract composition with flowing shapes",
+      "image": "/api/placeholder/400/400",
+      "category": "Abstract"
+    },
+    {
+      "id": 4,
+      "title": "Architectural Design",
+      "prompt": "Modern building with glass facade and geometric patterns",
+      "image": "/api/placeholder/400/400",
+      "category": "Architecture"
+    },
+    {
+      "id": 5,
+      "title": "Nature Scene",
+      "prompt": "Serene lake surrounded by mountains at golden hour",
+      "image": "/api/placeholder/400/400",
+      "category": "Nature"
+    },
+    {
+      "id": 6,
+      "title": "Character Design",
+      "prompt": "Anime character with detailed costume and accessories",
+      "image": "/api/placeholder/400/400",
+      "category": "Character"
+    }
+  ]
+}
